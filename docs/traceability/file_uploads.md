@@ -11,6 +11,7 @@ Follow the steps outlined below to upload data from files into your polygon mapp
 Download the file template here: [Plantation Data Upload Template](https://assets.agridence.com/docs-assets/traceability/plantation-data-upload template.xlsx).
 3. Polygon/GPS point coordinates should be in WKT format.
 4. Once the file has been uploaded, please address and verify the errors identified before proceeding to import the data.
+5. **Note**: If you need the system to calculate area for polygon type geometries automatically, keep the area value as -1.
 
 ![Sample error page](https://assets.agridence.com/docs-assets/traceability/post-file-upload-errors-checks.png)
 
