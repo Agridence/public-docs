@@ -21,7 +21,7 @@ Suppliers do not need to join GPSNR to submit reporting forms to your company. T
 **7.	Can GPSNR members invite their suppliers who are not GPSNR member to use the RR platform?**
 Yes, Non-GPSNR suppliers can be invited to the platform to submit the form. The GPSNR member will have to invite them to their supplier list and assign the respective form to them.
 
-![img](/Users/dreiako/public-docs/docs/gpsnr-rr-faq/supplierlist.png)
+![img](supplierlist.png)
 
 **8.	What if I am facing technical issues with the Agridence platform?**
 Please email cs@agridence.com
@@ -33,7 +33,7 @@ Please email the following contacts: natalie.low@gpsnr.org and aidan@gpsnr.org
 **10.	Will there be a feature to consolidate processors’ (Category B) responses (both non-member and members) for manufacturer’s (Category C) own reporting?**
 Yes, manufacturers will have their own dashboard to track their processors' (both member and non-member) submissions. Processors' submissions will be consolidated in the dashboard and they can download a single CSV file containing their processors' responses. The dashboard will be released for GPSNR members with suppliers mid-June. A similar feature will also be made available to end users (Category D) in due course.
 
-![ssdashboard](/Users/dreiako/public-docs/docs/gpsnr-rr-faq/ssdashboard.png)
+![ssdashboard](ssdashboard.png)
 
 **11.	Some questions may not be applicable to non-members of GPSNR for their submission to the downstream category. Will those questions be omitted?**
 We have included only the necessary questions for the ‘non-member’ form that the GPSNR working group has identified. 
@@ -55,7 +55,7 @@ Yes, they can. They will need to indicate to the GPSNR secretariat who will be c
 
 **17.	How do I save my answers?**
 Users have to click the “Save” button (found at the bottom of every page) to save the answers, otherwise the answers will be lost when user logs out of the platform. Please ensure that the 'Saved successfully' notification appears before proceeding to logout/continue another action, else data loss might occur. 
-![Save](/Users/dreiako/public-docs/docs/gpsnr-rr-faq/savebutton.png)
+![Save](savebutton.png)
 
 **18.	Can user view their previous year’s submission?**
 Yes, as this is the first year GPSNR members are using the GPSNR RR platform, members and users will be able to view their previous year’s submission, starting from next year.
