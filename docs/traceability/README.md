@@ -7,12 +7,13 @@ First, our Agridence field team will work with farmers on the ground for farm ma
 By using our tools, users will have the confidence to make informed decisions that align with regulatory requirements. 
 
 **1. Mapping and Traceability App (AgriTrace app)**
- - User-friendly mobile application for mapping plantation polygons in online and offline mode
- - Survey to ensure supply chain production is free of legal, social, and environmental concerns, and FPIC and land legality proof can be documented
- - Maintain product traceability through linkage of transaction between farmers, dealers, and factory (transactional traceability).
- - (Optional) Implement incentives and rewards program provided to farmers and dealers for their data 
- - Connect downstream to upstream actors in the supply chain, to tailor and cascade Capacity Building (CB) activities, like Good Agriculture Practice trainings (GAP), Agroforestry, replanting training, etc. 
+- User-friendly mobile application for mapping plantation polygons in online and offline mode
+- Survey to ensure supply chain production is free of legal, social, and environmental concerns, and FPIC and land legality proof can be documented
+- Maintain product traceability through linkage of transaction between farmers, dealers, and factory (transactional traceability).
+- (Optional) Implement incentives and rewards program provided to farmers and dealers for their data 
+- Connect downstream to upstream actors in the supply chain, to tailor and cascade Capacity Building (CB) activities, like Good Agriculture Practice trainings (GAP), Agroforestry, replanting training, etc. 
 
+**2. Field-mapping services**
 **2. Field-mapping services**
 - Deployment of Agridence field team to map and verify the plantation polygons at the source
 - Localization and socialization with farmers to educate them on the EUDR requirements
