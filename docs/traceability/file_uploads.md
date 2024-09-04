@@ -54,7 +54,9 @@ Follow the steps outlined below to upload data from files into your polygon mapp
 Download the file template here: [Plantation Data (JSON) Upload Template] (https://assets.agridence.com/docs-assets/traceability/sample-geojson.json).
 
 3. For Excel format, data must be organised in the same format as the template below, with the 5 column headers: **Plantation Code**, **Plantation Name**, **Land Area (ha)**, **Date Created** and **Geometry**.
+
 Download the file template here: [Plantation Data (Excel) Upload Template](https://assets.agridence.com/docs-assets/traceability/plantation-data-upload template.xlsx).
+
 4. Polygon/GPS point coordinates should be in WKT format.
 5. Once the file has been uploaded, please address and verify the errors identified before proceeding to import the data.
 6. **Note**: If you need the system to calculate area for polygon type geometries automatically, keep the area value as -1.
