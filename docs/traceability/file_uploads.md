@@ -8,6 +8,7 @@ Follow the steps outlined below to upload data from files into your polygon mapp
 
 1. Ensure that files uploaded are either in JSON or Excel format, containing the geolocation data in the specified format below.
 2. Once the file has been uploaded, please address and verify the errors identified before proceeding to import the data.
+![Sample error page](https://assets.agridence.com/docs-assets/traceability/post-file-upload-errors-checks.png)
 3. **Note**: For system to calculate the area for polygon type geometries automatically, keep the area value as -1. Else, specify the area in the respective fields.
 
 ### JSON
@@ -62,7 +63,7 @@ Follow the steps outlined below to upload data from files into your polygon mapp
 2. Download the file template here: [Plantation Data (Excel) Upload Template](https://assets.agridence.com/docs-assets/traceability/plantation-data-upload template.xlsx).
 3. Polygon/GPS point coordinates should be in WKT format.
 
-![Sample error page](https://assets.agridence.com/docs-assets/traceability/post-file-upload-errors-checks.png)
+
 
 ## FAQs
 
