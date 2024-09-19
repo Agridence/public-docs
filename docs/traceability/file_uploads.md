@@ -17,13 +17,15 @@ Follow the steps outlined below to upload data from files into your polygon mapp
 2. Download the file template here: [Plantation Data (JSON) Upload Template] (https://assets.agridence.com/docs-assets/traceability/sample-geojson.json).
 
 **Polygon**
+```
 {
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "ProductionPlace": "Plantation Name",
+        "ProductionPlace": "Plantation Code",
+        "PlantationName": "Plantation Name",
         "Area": -1
       },
       "geometry": {
@@ -39,12 +41,14 @@ Follow the steps outlined below to upload data from files into your polygon mapp
         "type": "Polygon"
       }
     },
-
+```
 **Point**
+```
 {
       "type": "Feature",
       "properties": {
-        "ProductionPlace": "Plantation Name",
+        "ProductionPlace": "Plantation Code",
+        "PlantationName": "Plantation Name",
         "Area": 1.5
       },
       "geometry": {
@@ -57,6 +61,7 @@ Follow the steps outlined below to upload data from files into your polygon mapp
     }
   ]
 }
+```
 
 ### Excel
 1. For Excel format, data must be organised in the same format as the template below, with the 5 column headers: **Plantation Code**, **Plantation Name**, **Land Area (ha)**, **Date Created** and **Geometry**.
