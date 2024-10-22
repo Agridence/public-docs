@@ -25,7 +25,7 @@ Follow the steps outlined below to upload data from files into your polygon mapp
       "type": "Feature",
       "properties": {
         "Plantation Code": "Plantation Code",
-        "ProductionPlace": "Plantation Code",
+        "ProductionPlace": "Production Place",
            "PlantationName": "Plantation Name",
         "Area": -1
       },
@@ -49,7 +49,7 @@ Follow the steps outlined below to upload data from files into your polygon mapp
       "type": "Feature",
       "properties": {
         "Plantation Code": "Plantation Code",
-        "ProductionPlace": "Plantation Code",
+        "ProductionPlace": "Production Place",
            "PlantationName": "Plantation Name",
         "Area": 1.5
       },
