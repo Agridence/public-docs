@@ -7,7 +7,9 @@ All SCP members and their suppliers (members/non-members) are expected to use th
 **2.	How do I use the platform for the SCP reporting?**
 
 User guide: (Coming soon)
+
 Webinar: (Coming soon)
+
 **3.	What if a member has subsidiaries under the company Group?**
 
 Please refrain from adding the subsidiaries under the “supplier” list as the supplier form is an abridged version. If you would like to add group subsidiaries, please reach out to cs@agridence.com.

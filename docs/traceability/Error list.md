@@ -15,13 +15,24 @@ Below are some errors commonly found when users upload their file.
 **2. Geometry Data**
 
 Below are the errors relating to the geometry data that will be flagged out by our system if they are found within the file uploaded. 
-| Error | Criticality | Description |
-| ----------- | ----------- | ----------- |
-| invalid_geometry_format | High | The geometry format is neither GeoJSON, WKT or WKB. Ensure the geometry data is in the correct format
-|plantation_area_too_large | High | The calculated area is too large
-|coordinates_length | Medium | The length of coordinates must be at least 6 decimal places.
-| eudr_4ha_rule |  Medium | The geometry’s area was supplied as >4ha but type is Point.
-| geometry_too_many_edges |  Medium | The geometry has too many edges. This may be an erratic polygon.
-| area_mismatch | Medium | The area declared vs area calculated (Polygon type) mismatched than a certain threshold.
-| is_simple | Medium | The shape is not a simple shape. For example, lines may be represented using multiple points when only 2 are sufficient. This causes data size to be larger.
-| polygon_shape_not_closed | Low | The polygon does not form a closed shape.
+
+| Error | Criticality | Category | Error Message | Error Handling | 
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Invalid geometry format | High | Invalid geometry | The geometry format is neither GeoJSON, WKT or WKB. Ensure the geometry data is in the correct format. | Cannot be uploaded 
+| Geometry first and last coordinate do not match | High | Invalid geometry | Points of LinearRing do not form a closed linestring | Cannot be uploaded
+| Geometry has intersecting coordinates | High | Invalid geometry | Geometry is invalid. Self-intersection | Cannot be uploaded 
+| Geometry with too few coordinates | High | Invalid geometry | Too few points in geometry component. | Cannot be uploaded
+|Plantation area too large | High | Data quality | The calculated area is too large, exceeded threshold of 100 edges. | Able to upload, but system will flag as 'Invalid Geometry'
+| Geometry too many edges |  Medium | Invalid geometry | The geometry has too many edges. This may be an erratic polygon. | Able to upload but system will advise that polygon might be erratic (flag as invalid geometry)				
+| Area mismatch | Medium | Data quality | The area declared vs area calculated (Polygon type) mismatched than a certain threshold. | Able to upload but system will advise that polygon might be erratic (flag as invalid geometry)		
+| Is not simple | Medium | Data quality | The shape is not a simple shape. For example, lines may be represented using multiple points when only 2 are sufficient. This causes data size to be larger. | System autocorrects (to be implemented) |
+| Out of adminstrative boundary | Low | Data Quality | Geometry is out of known boundaries (in the ocean). | Able to upload, but system will flag as 'Invalid Geometry'
+|EUDR 4ha rule |  Medium | Validation | The geometry data is more than 4 hectares, but is a GPS point. | Able to upload, but system will flag as 'Invalid Geometry'
+|Coordinates length too short | Medium | Validation | The length of coordinates must be at least 6 decimal places according to EUDR.| Able to upload, but system will flag as 'Invalid Geometry'
+| Polygon shape not closed | Low | Invalid geometry | The polygon does not form a closed shape. | Cannot be uploaded. Auto-close will be implemented in the future 
+| Right hand rule | Low | Invalid geometry | Geometry does not follow right hand rule.| System autocorrects
+| Duplicate coordinates | Low | Data quality | Geometry has sequential duplicate coordinates | System autocorrects
+| Inversed lat long | Low | Data quality |  Longtitude and latitude inversed | Able to upload, but system will flag as 'Invalid Geometry'
+	
+	
+	
