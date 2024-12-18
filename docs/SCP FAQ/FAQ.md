@@ -7,14 +7,16 @@ All SCP members and their suppliers (members/non-members) are expected to use th
 **2.	How do I use the platform for the SCP reporting?**
 
 User guide: (Coming soon)
+
 Webinar: (Coming soon)
+
 **3.	What if a member has subsidiaries under the company Group?**
 
 Please refrain from adding the subsidiaries under the “supplier” list as the supplier form is an abridged version. If you would like to add group subsidiaries, please reach out to cs@agridence.com.
 
 **4.	What if my suppliers are not SCP members? Do they have to join as a SCP member to submit the form?**
 
-Suppliers do not need to join GPSNR to submit reporting forms to your company. They can also use the same platform to submit their reporting to your company. 
+Suppliers do not need to join SCP to submit reporting forms to your company. They can also use the same platform to submit their reporting to your company. 
 
 **5.	What if I am facing technical issues with the Agridence platform?**
 
@@ -26,7 +28,7 @@ Please email the following contacts:
 
 **7.	How do I track my suppliers' responses when they have submitted the form to me?**
 
-User organisation that have added their supplier list will have their own dashboard to track their suppliers' (both member and non-member) submissions. Suppliers' submissions will be consolidated in the dashboard and they can download a single CSV file containing their processors' responses. 
+Members that have added to their supplier list will have their own dashboard to track their suppliers' (both member and non-member) submissions. Suppliers' submissions will be consolidated in the dashboard and they can download a single CSV file containing their processors' responses. 
 
 
 **8.	After submitting the form, can I make amendments to the form?**
@@ -35,7 +37,7 @@ Users are unable to make amendments to the form after clicking the submit button
 
 **9.	Are all the questions and the uploading of files compulsory? Can I proceed without answering questions and uploading the file?**
 
-All questions are not compulsory, so users can proceed with missing fields/without upload files. However, we recommend users to not leave blanks if possible. If there is no answer or not applicable, user can input NA into the field.
+All questions are not compulsory, so users can proceed with missing fields/without upload files. However, we recommend users to not leave blanks if possible. If user has no response to input, user can input NA into the field.
 
 **10.	Can multiple users work on/edit the same form?**
 
@@ -43,7 +45,7 @@ Yes. The super admin user can invite teammates to work on the form. However, we 
 
 **11.	Can the company get more than 1 super user if they have different teams with different suppliers from across the region?**
 
-Yes, they can. They will need to indicate to the SCP secretariat who will be compiling the super admin user contact information.
+Yes, they can. They will need to indicate to the SCP secretariat who will add the super users to their Member's list.
 
 **12.	How do I save my answers?**
 
