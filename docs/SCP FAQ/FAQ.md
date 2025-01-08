@@ -16,7 +16,7 @@ Please refrain from adding the subsidiaries under the “supplier” list as the
 
 **4.	What if my suppliers are not SCP members? Do they have to join as a SCP member to submit the form?**
 
-Suppliers do not need to join GPSNR to submit reporting forms to your company. They can also use the same platform to submit their reporting to your company. 
+Suppliers do not need to join SCP to submit reporting forms to your company. They can also use the same platform to submit their reporting to your company. 
 
 **5.	What if I am facing technical issues with the Agridence platform?**
 
@@ -28,7 +28,7 @@ Please email the following contacts:
 
 **7.	How do I track my suppliers' responses when they have submitted the form to me?**
 
-User organisation that have added their supplier list will have their own dashboard to track their suppliers' (both member and non-member) submissions. Suppliers' submissions will be consolidated in the dashboard and they can download a single CSV file containing their processors' responses. 
+User organisations that have added their supplier list will have their own dashboard to track their suppliers' (both member and non-member) submissions. Suppliers' submissions will be consolidated in the dashboard and they can download a single CSV file containing their processors' responses. 
 
 
 **8.	After submitting the form, can I make amendments to the form?**
