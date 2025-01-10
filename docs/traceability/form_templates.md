@@ -19,5 +19,5 @@ NOTE: Please ensure your responses match the sample answer/s (greyed out in the 
 
 ### Self-score
 
-Self-score: [Download Template](https://assets.agridence.com/docs-assets/questionnaire-templates/Self-Score.xlsx)
+Self-score: [Download Template](https://assets.agridence.com/docs-assets/questionnaire-templates/Self-Score%20Template.xlsx)
 
