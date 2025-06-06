@@ -21,3 +21,5 @@ NOTE: Please ensure your responses match the sample answer/s (greyed out in the 
 
 Self-score: [Download Template](https://assets.agridence.com/docs-assets/questionnaire-templates/Self-Score%20Template.xlsx)
 
+### Custom
+GPSNR DDR: [Download Template](https://storage.googleapis.com/docs-assets/questionnaire-templates/Custom_GPSNR%20DDR.xlsx)
