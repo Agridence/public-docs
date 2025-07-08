@@ -51,3 +51,12 @@ Please email cs@agridence.com
 **11.	What if I have questions about the SCP questionnaire which are not related to the technical aspects of the platform**
 
 Please email gregory@coconutpartnership.org
+
+**12. What should I input as the Organisation Name if I see this page?**
+![img](https://assets.agridence.com/docs-assets/forms/Tenant%20Login.png)
+
+If you are brought to the initial tenant login page, please input **'scp'** as the organisation name. You will be redirected back to the SCP login page. 
+
+**13. Is there a user guide?**
+
+Yes, please download the user guide here: [Download User Guide](https://assets.agridence.com/docs-assets/forms/Agridence_User%20Guide%20SCP%20Platform.pptx)
