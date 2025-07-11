@@ -31,13 +31,15 @@ Yes. The super admin user can invite teammates to work on the form. However, we 
 Users have to click the “Save” button (found at the bottom of every page) to save the answers, otherwise the answers will be lost when user logs out of the platform. Please ensure that the 'Saved successfully' notification appears before proceeding to logout/continue another action, else data loss might occur. 
 
 **8.	What are the role differences in the User Management Setting?**
-Administrator - Users have access to all features and buttons in the platform. They can add users to their team and add upstream suppliers to their Upstream List. 
 
-Can edit and submit - Users can only access features and buttons related to the form and can submit the form. 
+**Administrator**: Users have access to all features and buttons in the platform. They can add users to their team and add upstream suppliers to their Upstream List. 
 
-Can edit - Users can only access features and buttons related to the form but **cannot** submit the form. 
+**Can edit and submit**: Users can only access features and buttons related to the form and can submit the form. 
+
+**Can edit**: Users can only access features and buttons related to the form but **cannot** submit the form. 
 
 **9. What are the differences between the forms?**
+
 Transparency Questionnaire 2025 - Contains the full set of questions from the SCP Coconut Charter. Responses submitted to the SCP Secretariat can be viewed by the Auditor for auditing purposes. 
 
 Traceability Questionnaire 2025 - Questions about supply chain traceability. Responses submitted to the SCP Secretariat can be viewed by the Auditor for audit purposes. 
@@ -53,10 +55,11 @@ Please email cs@agridence.com
 Please email gregory@coconutpartnership.org
 
 **12. What should I input as the Organisation Name if I see this page?**
+
 ![img](https://assets.agridence.com/docs-assets/forms/Tenant%20Login.png)
 
 If you are brought to the initial tenant login page, please input **'scp'** as the organisation name. You will be redirected back to the SCP login page. 
 
 **13. Is there a user guide?**
 
-Yes, please download the user guide here: [Download User Guide](https://assets.agridence.com/docs-assets/forms/Agridence_User%20Guide%20SCP%20Platform.pptx)
+Yes, please download the user guide here: [Download User Guide](https://assets.agridence.com/docs-assets/forms/Agridence_User%20Guide%20SCP%20Members.pptx)
