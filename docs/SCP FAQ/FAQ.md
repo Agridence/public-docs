@@ -62,4 +62,4 @@ If you are brought to the initial tenant login page, please input **'scp'** as t
 
 **13. Is there a user guide?**
 
-Yes, please download the user guide here: [Download User Guide](https://assets.agridence.com/docs-assets/forms/Agridence_User%20Guide%20SCP%20Platform.pptx)
+Yes, please download the user guide here: [Download User Guide](https://assets.agridence.com/docs-assets/forms/Agridence_User%20Guide%20SCP%20Members.pptx)
