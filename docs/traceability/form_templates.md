@@ -4,7 +4,10 @@
 2. Click 'Upload' > Select 'Risk Framework' > Select 'Template' 
 3. Upload completed excel sheet (All required fields need to be completed, for upload to be successful)
 
-NOTE: Please ensure your responses match the sample answer/s (greyed out in the first row). For response fields with multiple options, please insert a semi-colon ';' between the options input. E.g. 'A. Clearing land; B. Spraying chemicals'
+NOTE: Please ensure your responses match the options provided in the downloaded Excel file template:
+
+- **Multiple-Choice Fields**: Indicated by the note in the first row. Please insert a semi-colon (;) to distinguish between different options (e.g., 'A. Clearing land; B. Spraying chemicals'). Responses containing values outside of the specified options will not be accepted.
+- **Free-Text Fields**: If a column has no multiple-choice options provided, free-text entry is permitted.
 
 
 ## Legality Questionnaire Templates
@@ -22,4 +25,4 @@ NOTE: Please ensure your responses match the sample answer/s (greyed out in the 
 Self-score: [Download Template](https://assets.agridence.com/docs-assets/questionnaire-templates/Self-Score%20Template.xlsx)
 
 ### Custom
-GPSNR DDR: [Download Template](https://assets.agridence.com/docs-assets/questionnaire-templates/Custom_GPSNR%20DDR.xlsx)
+Tiremaker DDR: [Download Template](https://assets.agridence.com/docs-assets/questionnaire-templates/Custom_GPSNR%20DDR.xlsx)
