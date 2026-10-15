@@ -1,0 +1,46 @@
+name: Check docs
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Strict MkDocs build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: 3.x
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install --require-hashes -r requirements.txt
+      # Fails on broken internal links and anchors (see `validation` in mkdocs.yml).
+      - run: mkdocs build --strict
+
+  asset-hosts:
+    name: Approved asset host
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: scripts/check-asset-hosts.sh
+
+  links:
+    name: External links and anchors
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: lycheeverse/lychee-action@v2.9.0
+        with:
+          args: --config lychee.toml --no-progress 'docs/**/*.md' mkdocs.yml
+          fail: true
