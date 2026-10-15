@@ -14,3 +14,10 @@ theme:
 copyright: Copyright &copy; 2025 Agridence Pte. Ltd.
 extra:
   generator: false
+# Report broken internal links and #anchors; `mkdocs build --strict` in
+# .github/workflows/check.yaml turns these warnings into a failed build.
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn

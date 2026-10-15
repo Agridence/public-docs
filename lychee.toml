@@ -1,0 +1,16 @@
+# Link checker configuration for the docs check workflow
+# (.github/workflows/check.yaml). Run locally with:
+#   lychee --config lychee.toml 'docs/**/*.md' mkdocs.yml
+
+# Verify that #fragment anchors exist on the target page, not just the page.
+include_fragments = "anchor-only"
+
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+
+exclude = [
+  # GPSNR members' SharePoint: the user guide and webinar recordings require a
+  # member sign-in and return 403 to anonymous requests.
+  '^https://rubberplatform\.sharepoint\.com/',
+]

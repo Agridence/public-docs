@@ -1,0 +1,3 @@
+# Top-level docs build dependencies. Regenerate the lock with:
+#   uv pip compile --universal --generate-hashes requirements.in -o requirements.txt
+mkdocs-material
